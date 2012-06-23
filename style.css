@@ -8,15 +8,99 @@ body {
 	font-family:helvetica;
 }
 
-#NewCamp {
-	width:230px;
+#container {
+	width: 1024px;
+	margin: 10px auto;
+	}
+	
+.dark-gray-btn {
+	background-color: #333;
+
+}	
+
+.btn {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 36px;
+	width: 300px;
+	color: #FFF;
+	display: block;
+	padding: 5px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.light-gray-btn {
+	background-color: #666;
+}	
+
+.large-flow-menu {
+	width: 1000px;
+	padding-left: 40px;
+	margin: 0 auto;
+}
+
+.large-flow-menu .item {
+	float: left;
+	width: 302px;
+	height: 91px;
+	margin-left: -12px;
+	color: #FFF;
+	line-height: 90px;
+	text-align: center;
+	font-size: 18px;
+
+}
+.large-flow-menu .item0 {
+	background: url('images/arrow-01.png') top left no-repeat;
+}
+.large-flow-menu .item1 {
+	background: url('images/arrow-02.png') top left no-repeat;
+}
+.large-flow-menu .item2 {
+	background: url('images/arrow-03.png') top left no-repeat;
+}
+
+/* new campaign */
+
+#flow-menu {
+	margin: 0 auto;
+}
+
+#new-camp {
+	width:400px;
 	font-size:14px;
 	margin: 50px auto;
 }
 
-#NewCamp-Type {
-background: url('images/email.png') no-repeat 0px 0px;
+#new-camp h1 {margin: 10px auto; width: 300px;}
+
+.camp-type-container { 
+	width: 400px; 
+	display: inline-block;
+} 
+.camp-type {
 width:76px;
 height:56px;
+float: left;
+margin-right:  40px;
 
 }
+
+#prev-camp-btn {
+	width: 300px;
+	margin-top: 10px;
+}
+
+#camp-type-email {
+	background: url('images/email.png') no-repeat 0px 0px;
+}
+
+#camp-type-twitter {
+	background: url('images/twt.png') no-repeat 0px 0px;
+}
+
+#camp-type-sms {
+	background: url('images/sms.png') no-repeat 0px 0px;
+}
+
