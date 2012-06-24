@@ -73,7 +73,7 @@ body {
 	margin: 50px auto;
 }
 
-#new-camp h1 {margin: 10px auto; width: 300px;}
+#new-camp h1 {margin: 36px auto; width: 300px;}
 
 .camp-type-container { 
 	width: 400px; 
@@ -89,11 +89,14 @@ margin-right:  40px;
 
 #prev-camp-btn {
 	width: 300px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 #camp-type-email {
 	background: url('images/email.png') no-repeat 0px 0px;
+}
+
+#camp-type-email:hover{
 }
 
 #camp-type-twitter {
