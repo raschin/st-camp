@@ -169,7 +169,10 @@ input {
 	margin: 50px auto;
 }
 
-#new-camp h1 {margin: 36px auto; width: 300px;}
+#new-camp h1 {
+	margin: 36px auto; width: 300px;
+	text-shadow: -1px 2px white, 0px 0px #555;
+	}
 
 
 .camp-type-container { 
@@ -189,19 +192,32 @@ margin-right:  40px;
 	margin-top: 15px;
 }
 
+#prev-camp-btn:hover{
+	background-color:#29ABE2;
+}
+
 #camp-type-email {
 	background: url('images/email.png') no-repeat 0px 0px;
 }
 
 #camp-type-email:hover{
+background-position: -76px 0;
 }
 
 #camp-type-twitter {
 	background: url('images/twt.png') no-repeat 0px 0px;
 }
 
+#camp-type-twitter:hover{
+background-position: -76px 0;
+}
+
 #camp-type-sms {
 	background: url('images/sms.png') no-repeat 0px 0px;
+}
+
+#camp-type-sms:hover{
+background-position: -76px 0;
 }
 
 /* audience */
