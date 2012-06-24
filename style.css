@@ -85,9 +85,11 @@ a.light-gray-btn:hover {
 	text-align: center;
 	line-height: 42px;
 	color: #FFF;
+	text-decoration: none;
 
 
 }
+
 
 #nav-bar {
 	margin: 40px auto 10px auto;
